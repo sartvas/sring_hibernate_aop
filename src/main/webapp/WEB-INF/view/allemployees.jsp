@@ -1,17 +1,29 @@
-<%-- 
-    Document   : allemployees
-    Created on : 31 авг. 2021 г., 17:51:38
-    Author     : sartv
---%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello World!</h1>
-    </body>
+<body>
+ 
+<h2>All Employees</h2>
+<br><br>
+<table>
+    <tr>
+        <TH>Name</TH>
+        <TH>Surname</TH>
+        <TH>Department</TH>
+        <TH>Salary</TH>
+    </tr>
+ 
+    <c:forEach var="emp" items="${allEmps}">
+        <tr>
+            <td>${emp.name}</td>
+            <td>${emp.surname}</td>
+            <td>${emp.department}</td>
+            <td>${emp.salary}</td>
+        </tr>
+ 
+    </c:forEach>
+</table>
+ 
+ 
+</body>
 </html>
