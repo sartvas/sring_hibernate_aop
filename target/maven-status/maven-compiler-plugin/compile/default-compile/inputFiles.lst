@@ -1,6 +1,11 @@
+C:\Users\sartv\OneDrive\Документы\NetBeansProjects\Spring_hibernate\src\main\java\com\zaurtregulov\spring\mvc_hibernate_aop\service\BooksServiceImpl.java
 C:\Users\sartv\OneDrive\Документы\NetBeansProjects\Spring_hibernate\src\main\java\com\zaurtregulov\spring\mvc_hibernate_aop\service\EmployeeService.java
 C:\Users\sartv\OneDrive\Документы\NetBeansProjects\Spring_hibernate\src\main\java\com\zaurtregulov\spring\mvc_hibernate_aop\controller\MyController.java
+C:\Users\sartv\OneDrive\Документы\NetBeansProjects\Spring_hibernate\src\main\java\com\zaurtregulov\spring\mvc_hibernate_aop\dao\BooksDao.java
+C:\Users\sartv\OneDrive\Документы\NetBeansProjects\Spring_hibernate\src\main\java\com\zaurtregulov\spring\mvc_hibernate_aop\dao\BooksDaoImpl.java
 C:\Users\sartv\OneDrive\Документы\NetBeansProjects\Spring_hibernate\src\main\java\com\zaurtregulov\spring\mvc_hibernate_aop\dao\EmployeeDaoImpl.java
+C:\Users\sartv\OneDrive\Документы\NetBeansProjects\Spring_hibernate\src\main\java\com\zaurtregulov\spring\mvc_hibernate_aop\entity\Books.java
+C:\Users\sartv\OneDrive\Документы\NetBeansProjects\Spring_hibernate\src\main\java\com\zaurtregulov\spring\mvc_hibernate_aop\service\BookService.java
 C:\Users\sartv\OneDrive\Документы\NetBeansProjects\Spring_hibernate\src\main\java\com\zaurtregulov\spring\mvc_hibernate_aop\service\EmployeeServiceImpl.java
 C:\Users\sartv\OneDrive\Документы\NetBeansProjects\Spring_hibernate\src\main\java\com\zaurtregulov\spring\mvc_hibernate_aop\entity\Employee.java
 C:\Users\sartv\OneDrive\Документы\NetBeansProjects\Spring_hibernate\src\main\java\com\zaurtregulov\spring\mvc_hibernate_aop\dao\EmployeeDAO.java
