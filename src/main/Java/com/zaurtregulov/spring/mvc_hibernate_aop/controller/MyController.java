@@ -8,6 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
  
 import java.util.List;
+import org.springframework.web.bind.annotation.ModelAttribute;
  
 @Controller
 public class MyController {
@@ -18,5 +19,22 @@ public class MyController {
         List<Employee> allEmployees =employeeService.getAllEmployees();
         model.addAttribute("allEmps",allEmployees);
         return "allemployees";
+    }
+    
+    @RequestMapping("/addnewemployee")
+    public String addNewEmployee(Model model){
+        
+        Employee employee = new Employee();
+        model.addAttribute("employee", employee);
+        
+        return "emloyeeinfo";
+    }
+    
+    @RequestMapping("/saveemployee")
+    public String saveEmployee(@ModelAttribute("employee") Employee employee){
+        
+        employeeService.saveEmployee(employee);
+        
+        return "redirect:/";
     }
 }
