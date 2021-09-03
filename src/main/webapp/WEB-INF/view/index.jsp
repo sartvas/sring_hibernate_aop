@@ -9,6 +9,7 @@
     <body>
         <h1>My data base</h1>
         <a href = "allemployee"><h2>All Employee</h2></a>
-        <a href= "allbook"><h2>All my books</h2></a>
+        <a href= "allbook"><h2>Favorite my books</h2></a>
+        <a href= "allcars"><h2>Employee`s cars</h2></a>
     </body>
 </html>
