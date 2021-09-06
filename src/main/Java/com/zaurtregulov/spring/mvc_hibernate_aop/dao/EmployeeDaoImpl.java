@@ -2,6 +2,7 @@ package com.zaurtregulov.spring.mvc_hibernate_aop.dao;
 
 import com.zaurtregulov.spring.mvc_hibernate_aop.entity.Employee;
 import java.util.List;
+import org.hibernate.LockMode;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
@@ -35,5 +36,14 @@ public class EmployeeDaoImpl implements EmployeeDAO{
         Session session = sessionFactory.getCurrentSession();
         Employee employee = session.get(Employee.class, id);
          return employee;
+    }
+
+    @Override
+    public void deleteEmolyee(int id) {
+        Session session = sessionFactory.getCurrentSession();
+        Query<Employee> query = session.createQuery("DELETE FROM Employee " + 
+                   "WHERE id =:eploeeID");
+        query.setParameter("eploeeID", id);
+        query.executeUpdate(); 
     }
 }
